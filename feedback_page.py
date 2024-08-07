@@ -5,7 +5,7 @@ import os
 def feedback_page():
     st.title('Feedback Records')
     feedback_file = 'feedback.csv'
-    feedback_password = "London123"
+    feedback_password = "feeback"
 
     # Initialize session state variables if they do not exist
     if 'authenticated' not in st.session_state:
